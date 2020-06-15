@@ -18,11 +18,11 @@ public class LeapYear {
         if (year % 400 == 0) {
             return True;
         }
-        else if (year % 4 == 0 and year % 100 != 0) {
-            return True;
+        else if (year % 4 == 0 & year % 100 != 0) {
+            return true;
         }
         else {
-            return False;
+            return false;
         }
     }
     /** Must be provided an integer as a command line argument ARGS. */
